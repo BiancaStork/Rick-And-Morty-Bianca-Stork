@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.content_cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hover{
+    transform:scale(1.05);
+
+   transition: transform 0.5s;
+   transition-delay: 0.5s;
+}
